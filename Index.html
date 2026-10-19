@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MedWallet - Home</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Inter,sans-serif}
+body{background:#f0f6ff; display:flex; justify-content:center; padding:20px}
+.phone{width:380px;background:white;border-radius:30px;box-shadow:0 20px 60px rgba(0,0,0,.2);overflow:hidden;border:8px solid black}
+.header{padding:20px 20px 10px;display:flex;justify-content:space-between;align-items:center}
+.logo{color:#0b3d91;font-weight:800;font-size:22px}
+.content{padding:20px}
+.hi{font-size:28px;font-weight:800;color:#0b3d91}
+.sub{color:gray;font-size:13px;margin:5px 0 15px}
+.emergency{background:#e11d48;color:white;padding:16px;border-radius:14px;display:flex;gap:12px;align-items:center;text-decoration:none}
+.emergency span{font-size:30px}
+.blood{background:#dbeafe;border-radius:16px;padding:16px;text-align:center;margin:15px 0;border:2px solid #93c5fd}
+.blood h3{color:#1e40af;font-size:13px;letter-spacing:1px}
+.blood h1{font-size:60px;color:#1d4ed8;margin:10px 0}
+.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin:10px 0}
+.card{background:#e0e7ff;padding:14px;border-radius:12px;text-align:center;font-size:13px;color:#1e3a8a}
+.recent{margin-top:15px}
+.item{display:flex;gap:10px;padding:12px 0;border-bottom:1px solid #eee}
+.btn{display:block;background:#0b3d91;color:white;text-align:center;padding:14px;border-radius:12px;margin-top:20px;text-decoration:none;font-weight:700}
+</style>
+</head>
+<body>
+<div class="phone">
+  <div class="header"><div class="logo">🛡️ MedWallet</div><div>👤</div></div>
+  <div class="content">
+    <div class="hi">Hi, Aarav</div>
+    <div class="sub">Patient Home Wallet • Secure & Private</div>
+    <a class="emergency" href="qr.html"><span>🔳</span><div><b>Emergency QR</b><br><small>Tap to show for emergency responders</small></div></a>
+    <div class="blood"><h3>BLOOD GROUP</h3><h1>🩸 O+</h1></div>
+    <div class="grid"><div class="card">❤️<br>Vitals</div><div class="card">💊<br>Meds</div><div class="card">📄<br>Reports</div></div>
+    <div class="recent"><b>Recent Activity</b><div class="item"><div>📅</div><div><b>Annual Checkup Report</b><br><small>Added yesterday • PDF</small></div></div></div>
+    <a class="btn" href="qr.html">Show Emergency QR →</a>
+  </div>
+</div>
+</body>
+</html>
